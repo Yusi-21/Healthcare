@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:id="@+id/ai_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_gradient_blue">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ai_bot_pcs"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:clipToOutline="true"
+        app:lottie_rawRes="@raw/ai_bot"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ai_help"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+
+    </LinearLayout>
+
+    <!-- История чата -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="619dp"
+        android:layout_above="@+id/input_layout"
+        android:layout_below="@+id/ai_name"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_gradient_blue"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        tools:listitem="@layout/item_message" />
+
+    <!-- Панель ввода -->
+    <LinearLayout
+        android:id="@+id/input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/bg_gradient_blue"
+        android:elevation="4dp">
+
+        <EditText
+            android:id="@+id/user_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/input_hint"
+            android:textColorHint="@color/gray"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/white"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionSend"
+            android:maxLines="3" />
+
+        <ImageView
+            android:id="@+id/voice_input_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/icon_voice_on3"
+            android:contentDescription="Голосовой ввод"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <ImageView
+            android:id="@+id/send_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icon_send_btn"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

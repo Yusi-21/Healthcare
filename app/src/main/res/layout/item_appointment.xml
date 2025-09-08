@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/edittext_bg">
+
+        <TextView
+            android:id="@+id/tv_patient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="John Smith"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"/>
+
+        <TextView
+            android:id="@+id/tv_specialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardiologist"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"/>
+
+        <TextView
+            android:id="@+id/tv_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15.05.2025 10:00"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status_open"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/aclonica"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,191 @@
+<resources>
+    <string name="developer">Developer: Abdyrahmanov Yusup</string>
+    <string name="app_name">HealthCare</string>
+    <string name="version_full">Version 1.0.0</string>
+
+    <string name="login_title">Login</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_prompt">New to here?</string>
+    <string name="signup_link">Sign up</string>
+
+    <string name="signup_title">Sign Up</string>
+    <string name="username_hint">Username</string>
+    <string name="signup_button">Sign Up</string>
+
+    <string name="doctor_signup_title">Sign Up</string>
+
+    <string name="qr_code_instruction">Bring the QR Code\nto the terminal</string>
+
+    <string name="others_title">Others</string>
+    <string name="profile">Profile</string>
+    <string name="doctors">Doctors</string>
+    <string name="patients">Patients</string>
+    <string name="analysis">Analysis</string>
+    <string name="first_aid">First-Aid</string>
+    <string name="notifications">Notifications</string>
+    <string name="about_us">About us</string>
+    <string name="log_out">Log Out</string>
+    <string name="login_successful">Login successful ✅</string>
+    <string name="logged_out_successfully">We hope to see\nYou again soon! 💜</string>
+
+    <string name="invalid_email_password">Invalid email or password 🤷‍♂️</string>
+    <string name="fill_all_fields">Please fill in all fields 🖋</string>
+    <string name="profile_updated">Profile updated ✅</string>
+    <string name="profile_updated_error">Error saving changes</string>
+
+    <string name="role_selection_title">Who are You?</string>
+    <string name="doctor_role">Doctor</string>
+    <string name="patient_role">Patient</string>
+
+    <string name="emergency_first_aid_title">Emergency First Aid</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="emergency_number">103 (Russia)</string>
+    <string name="find_nearest_hospital">Find Nearest Hospital</string>
+    <string name="first_aid_instructions_title">First Aid Instructions:</string>
+    <string name="first_aid_steps"> 1. Check for danger\n
+        2. Call for help\n
+        3. Open airway\n
+        4. Check breathing\n
+        5. Start CPR if needed\n
+        6. Treat injuries</string>
+    <string name="common_emergencies">Common Emergencies:</string>
+    <string name="heart_attack">Heart Attack</string>
+    <string name="choking">Choking</string>
+
+    <string name="about_us_content">
+        <b>About Us</b>\n\n
+    We are a modern healthcare provider offering premium medical services with compassion and cutting-edge technology.\n\n
+    ✓ Online doctor appointments\n
+    ✓ Digital queue system\n
+    ✓ Affordable pricing\n
+    ✓ Board-certified specialists\n\n
+    <b>Contact Us:</b>\n
+    📱 +7 (999) 993-80-18\n
+    📍 Medical Street, 123, Moscow\n\n
+    Available 24/7 for emergencies
+    </string>
+
+    <string name="contact_phone"><a href="tel:+7 999 993 80 18">📱 +7 (999) 993-80-18</a></string>
+
+    <string name="ai_assistant_title">AI Assistant</string>
+    <string name="welcome_message">Hi, Dear! \uD83C\uDF40\n
+        I am your AI Assistant \uD83E\uDD16\n
+        With me everything is easy!\n\n
+        You can ask your questions or check these quick links:\n\n
+        • How to make an appointment?\n
+        • Where is the clinic located?\n
+        • What documents are needed?\n
+        • What are the working hours?</string>
+    <string name="input_hint">Enter your question…</string>
+    <string name="send_button">Send</string>
+    <string name="response_hello">Hi!\nWhat we are going to look for? 🔍</string>
+    <string name="response_appointment">You can make an appointment:\n
+        • Through this app\n
+        • By phone +7 (999) 993-80-18</string>
+    <string name="response_address">Our clinic is located at: Medical street, 123\n\n
+        - Near the park, 5 minutes from metro \'Prospect Vernadskogo\' </string>
+    <string name="response_documents">Required documents:\n
+        • Passport\n
+        • Health insurance policy\n
+        • SNILS\n\n
+        - For children • birth certificate</string>
+    <string name="response_hours">Working hours:\n\n
+        • Mon-Fri: 8:00-20:00\n
+        • Sat: 9:00-15:00\n
+        • Sun: closed\n\n
+        - Therapist available until 19:00</string>
+    <string name="response_unknown">Sorry, I didn\'t understand the question. Try rephrasing or choose one of these options:\n
+        • Appointment / Registration\n
+        • Location    / Address\n
+        • Documents   / Passport\n
+        • Timetable   / Hours</string>
+    <string name="response_okay">I hope I was helpful to You,\nsee You next time! 🤗</string>
+
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="chinese">Chinese</string>
+    <string name="apply">Apply</string>
+    <string name="language_changed">Language changed!</string>
+
+    <string name="home">Home</string>
+    <string name="icon_home">You are already in Home page</string>
+    <string name="ai_help">AI-Help</string>
+    <string name="others">Others</string>
+
+    <string name="saveButton">Save</string>
+    <string name="cancelButton">Cancel</string>
+
+
+    <string name="upcoming_entries">Upcoming entries:</string>
+    <string name="btn_add_schedule">Schedule</string>
+    <string name="added_new_records">An appointment has been added:</string>
+    <string name="my_records">Records</string>
+
+    <string name="select_doctors">Select doctors</string>
+    <string name="select_time">Select date &amp; time</string>
+
+    <string name="therapist">Therapist</string>
+    <string name="cardiologist">Cardiologist</string>
+    <string name="ophthalmologist">Ophthalmologist</string>
+    <string name="pediatrician">Pediatrician</string>
+    <string name="surgeon">Surgeon</string>
+    <string name="neurologist">Neurologist</string>
+
+
+    <string name="therapist_profession">General practitioner</string>
+    <string name="cardiologist_profession">Specializes in heart and vascular diseases</string>
+    <string name="ophthalmologist_profession">Doctor for vision and eye diseases</string>
+    <string name="pediatrician_profession">Children\'s doctor (from birth to 18 years)</string>
+    <string name="surgeon_profession">Performs surgeries (from appendicitis to complex interventions)</string>
+    <string name="neurologist_profession">Treats nervous system disorders (strokes, migraines, epilepsy)</string>
+
+    <string name="make_appointment">📝 Make an appointment</string>
+    <string name="appointment_confirmation">Do you want to book an appointment</string>
+    <string name="appointment_booked">Appointment booked!✅</string>
+    <string name="notification_appointment_booked">Appointment booked!✅</string>
+    <string name="cancel">Cancel ❌</string>
+    <string name="book">Book ✅</string>
+
+    <string name="at">at</string>
+    <string name="to">to</string>
+    <string name="status_confirmed">Confirmed</string>
+
+    <string name="status_open">Open</string>
+    <string name="status_book">Book</string>
+    <string name="status_booked">Booked</string>
+    <string name="status_closed">Closed</string>
+
+    <string name="edit">Change ✏️</string>
+    <string name="delete">Delete</string>
+    <string name="delete_alert">Delete 🗑</string>
+    <string name="confirm_delete">⚠️ Delete appointment?</string>
+    <string name="confirmed_delete">Appointment deleted ✅</string>
+
+    <string name="empty_notifications_text">We\'ll let You know when we\nget news for You</string>
+    <string name="empty_analysis_text">Results are being processed\nYou\'ll be notified when ready</string>
+
+    <string name="delete_appointment">Are you sure, that you want to delete this appointment?</string>
+
+    <string name="btn_book_appointment">Make an appointment</string>
+
+    <string-array name="doctor_specializations">
+        <item>Cardiologist</item>
+        <item>Neurologist</item>
+        <item>Ophthalmologist</item>
+        <item>Pediatrician</item>
+        <item>Therapist</item>
+        <item>Surgeon</item>
+    </string-array>
+
+    <string name="unknown_specialization">Unknown specialization</string>
+    <string name="user_exists">⚠\uFE0F User with this email already exists</string>
+    <string name="registration_success">Registration successful ✅</string>
+
+    <string name="del_message">What do You want to delete?</string>
+    <string name="delete_this_message">Delete this message</string>
+    <string name="delete_all_messages">Delete all messages</string>
+</resources>

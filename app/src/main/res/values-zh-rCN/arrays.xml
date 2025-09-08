@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hello_keywords">
+        <item>您好</item>
+        <item>你好</item>
+    </string-array>
+    <!-- 预约关键词 -->
+    <string-array name="appointment_keywords">
+        <item>预约</item>
+        <item>挂号</item>
+        <item>登记</item>
+        <item>看病预约</item>
+        <item>医生预约</item>
+        <item>就诊时间</item>
+    </string-array>
+
+    <!-- 地址关键词 -->
+    <string-array name="address_keywords">
+        <item>地址</item>
+        <item>在哪里</item>
+        <item>位置</item>
+        <item>地点</item>
+        <item>怎么走</item>
+        <item>诊所位置</item>
+    </string-array>
+
+    <!-- 文件关键词 -->
+    <string-array name="documents_keywords">
+        <item>文件</item>
+        <item>护照</item>
+        <item>保险</item>
+        <item>保单</item>
+        <item>医疗卡</item>
+        <item>证件</item>
+    </string-array>
+
+    <!-- 时间关键词 -->
+    <string-array name="hours_keywords">
+        <item>营业时间</item>
+        <item>开放时间</item>
+        <item>工作时间</item>
+        <item>几点开门</item>
+        <item>门诊时间</item>
+        <item>时间</item>
+    </string-array>
+
+    <string-array name="okay_keywords">
+        <item>好的</item>
+        <item>好</item>
+        <item>谢谢</item>
+        <item>懂了</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:background="@drawable/bg_gradient_blue">
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Выбор языка -->
+    <RadioGroup
+        android:id="@+id/languageRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <!-- Английский -->
+        <RadioButton
+            android:id="@+id/radioEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:buttonTint="@color/white"/>
+
+        <!-- Русский -->
+        <RadioButton
+            android:id="@+id/radioRussian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/russian"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:buttonTint="@color/white"/>
+
+        <!-- Китайский -->
+        <RadioButton
+            android:id="@+id/radioChinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chinese"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:buttonTint="@color/white"/>
+    </RadioGroup>
+
+    <!-- Кнопка "Apply" -->
+    <Button
+        android:id="@+id/btnApplyLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:fontFamily="@font/aclonica"
+        android:drawableRight="@drawable/icon_allow_access"/>
+</LinearLayout>

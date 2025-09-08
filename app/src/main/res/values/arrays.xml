@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hello_keywords">
+        <item>hello</item>
+        <item>hi</item>
+    </string-array>
+
+    <string-array name="appointment_keywords">
+        <item>appointment</item>
+        <item>book</item>
+        <item>schedule</item>
+        <item>make an appointment</item>
+        <item>doctor appointment</item>
+        <item>registration</item>
+    </string-array>
+
+    <string-array name="address_keywords">
+        <item>where is</item>
+        <item>address</item>
+        <item>location</item>
+        <item>place</item>
+        <item>how to get</item>
+        <item>directions</item>
+    </string-array>
+
+    <string-array name="documents_keywords">
+        <item>documents</item>
+        <item>passport</item>
+        <item>insurance</item>
+        <item>policy</item>
+        <item>snils</item>
+        <item>medical card</item>
+    </string-array>
+
+    <string-array name="hours_keywords">
+        <item>working hours</item>
+        <item>opening hours</item>
+        <item>timetable</item>
+        <item>when open</item>
+        <item>business hours</item>
+        <item>hours</item>
+    </string-array>
+
+    <string-array name="okay_keywords">
+        <item>okay</item>
+        <item>ok</item>
+        <item>thanks</item>
+        <item>understood</item>
+    </string-array>
+</resources>

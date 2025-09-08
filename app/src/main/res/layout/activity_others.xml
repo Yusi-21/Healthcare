@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_gradient_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/other_all"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/others_title"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="32dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="40dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_profile2"/>
+
+        <TextView
+            android:id="@+id/go_to_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_doctor2"/>
+
+        <TextView
+            android:id="@+id/go_to_select_doctors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doctors"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_analysis_all"/>
+
+        <TextView
+            android:id="@+id/go_to_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/analysis"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_ambulance"/>
+
+        <TextView
+            android:id="@+id/go_to_first_aid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_aid"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_notification1"/>
+
+        <TextView
+            android:id="@+id/go_to_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_lang"/>
+
+        <TextView
+            android:id="@+id/go_to_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="100dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_about_us"/>
+
+        <TextView
+            android:id="@+id/go_to_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@null"
+            android:paddingStart="12dp"
+            android:drawableRight="@drawable/icon_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/log_out"
+            android:textColor="@color/red"
+            android:fontFamily="@font/aclonica"
+            android:drawableRight="@drawable/icon_logout"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/developer"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

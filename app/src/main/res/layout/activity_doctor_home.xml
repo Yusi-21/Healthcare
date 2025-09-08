@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_blue"
+    android:paddingTop="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/icon_username_doctor"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_doctor3"/>
+
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Doctor"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/icon_notification_doctor"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:src="@drawable/icon_notification1"
+            android:background="@drawable/edittext_bg"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/upcoming_entries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/upcoming_entries"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aclonica"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/records_recycler_view_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gradient_blue"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_home_doctor"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_home"
+                android:background="@drawable/edittext_bg"/>
+
+            <TextView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aclonica"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_add_schedule"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_add"
+                android:background="@drawable/edittext_bg"/>
+
+            <TextView
+                android:id="@+id/add_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_add_schedule"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aclonica"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_others_doctor"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_others"
+                android:background="@drawable/edittext_bg"/>
+
+            <TextView
+                android:id="@+id/others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/others"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aclonica"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

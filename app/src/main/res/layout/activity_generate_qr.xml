@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient_blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qr_code_instruction"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/iv_qr_code"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/edittext_bg"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_user_name_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Иван Иванов"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

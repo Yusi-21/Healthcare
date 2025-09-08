@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <TextView
+        android:id="@+id/del_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/del_message"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/aclonica"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:drawablePadding="8dp"/>
+
+    <TextView
+        android:id="@+id/delete_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_this_message"
+        android:textColor="@color/black"
+        android:fontFamily="@font/aclonica"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:drawableStart="@drawable/icon_delete1"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/delete_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_all_messages"
+        android:textColor="@color/red"
+        android:fontFamily="@font/aclonica"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:drawableStart="@drawable/icon_delete"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelButton"
+        android:textColor="@color/secondary_text_color"
+        android:fontFamily="@font/aclonica"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

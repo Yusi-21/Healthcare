@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hello_keywords">
+        <item>здравствуйте</item>
+        <item>привет</item>
+    </string-array>
+
+    <!-- Ключевые слова для записи на прием -->
+    <string-array name="appointment_keywords">
+        <item>записаться</item>
+        <item>запись</item>
+        <item>прием</item>
+        <item>записаться на прием</item>
+        <item>запись к врачу</item>
+        <item>регистрация</item>
+    </string-array>
+
+    <!-- Ключевые слова для адреса -->
+    <string-array name="address_keywords">
+        <item>где находится</item>
+        <item>адрес</item>
+        <item>локация</item>
+        <item>место</item>
+        <item>как добраться</item>
+        <item>расположение</item>
+    </string-array>
+
+    <!-- Ключевые слова для документов -->
+    <string-array name="documents_keywords">
+        <item>документы</item>
+        <item>паспорт</item>
+        <item>полис</item>
+        <item>снилс</item>
+        <item>страховка</item>
+        <item>медкарта</item>
+    </string-array>
+
+    <!-- Ключевые слова для времени работы -->
+    <string-array name="hours_keywords">
+        <item>время работы</item>
+        <item>часы работы</item>
+        <item>график</item>
+        <item>когда открыто</item>
+        <item>рабочее время</item>
+        <item>часы</item>
+    </string-array>
+
+    <string-array name="okay_keywords">
+        <item>окей</item>
+        <item>ок</item>
+        <item>спасибо</item>
+        <item>понял</item>
+    </string-array>
+</resources>

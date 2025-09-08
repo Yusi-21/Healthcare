@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="developer">Разработчик: Абдырахманов Юсуп</string>
+    <string name="app_name">Поликлиника</string>
+    <string name="login_title">Вход</string>
+    <string name="email_hint">Эл. почта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="signup_prompt">Впервые здесь?</string>
+    <string name="signup_link">Регистрация</string>
+
+    <string name="signup_title">Регистрация</string>
+    <string name="username_hint">Имя пользователя</string>
+    <string name="signup_button">Зарегистрироваться</string>
+
+    <string name="doctor_signup_title">Регистрация</string>
+
+    <string name="qr_code_instruction">Поднесите QR-код к терминалу</string>
+
+    <string name="others_title">Ещё</string>
+    <string name="profile">Профиль</string>
+    <string name="doctors">Врачи</string>
+    <string name="patients">Пациенты</string>
+    <string name="analysis">Анализы</string>
+    <string name="first_aid">Первая помощь</string>
+    <string name="notifications">Уведомления</string>
+    <string name="about_us">О нас</string>
+    <string name="log_out">Выйти</string>
+    <string name="login_successful">Вход успешно ✅</string>
+    <string name="logged_out_successfully">Надеемся,\nскоро вернетесь! 💜</string>
+
+    <string name="invalid_email_password">Неправильный эл. почта или пароль 🤷‍♂️</string>
+    <string name="fill_all_fields">Пожалуйста,\nзаполните все поля 🖋</string>
+    <string name="profile_updated">Профиль обновлен ✅</string>
+    <string name="profile_updated_error">Ошибка при сохранении изменений</string>
+
+    <string name="role_selection_title">Кто Вы?</string>
+    <string name="doctor_role">Врач</string>
+    <string name="patient_role">Пациент</string>
+
+    <string name="emergency_first_aid_title">Экстренная помощь</string>
+    <string name="emergency_call">Экстренный вызов</string>
+    <string name="emergency_number">103 (Россия)</string>
+    <string name="find_nearest_hospital">Найти ближайшую больницу</string>
+    <string name="first_aid_instructions_title">Инструкции первой помощи:</string>
+    <string name="first_aid_steps"> 1. Проверьте безопасность\n
+        2. Позовите на помощь\n
+        3. Откройте дыхательные пути\n
+        4. Проверьте дыхание\n
+        5. Начните СЛР при необходимости\n
+        6. Обработайте травмы</string>
+    <string name="common_emergencies">Частые случаи:</string>
+    <string name="heart_attack">Инфаркт</string>
+    <string name="choking">Удушье</string>
+    <string name="version_full">Версия 1.0.0</string>
+
+    <string name="about_us_content">
+    <b>О Нас</b>\n\n
+    Мы — современный медицинский сервис, предлагающий качественное лечение с заботой и передовыми технологиями.\n\n
+    ✓ Запись к врачу онлайн\n
+    ✓ Электронная очередь\n
+    ✓ Доступные цены\n
+    ✓ Врачи высшей категории\n\n
+    <b>Контакты:</b>\n
+    📱 +7 (999) 993-80-18\n
+    📍 Ул. Медицинская, 123, Москва\n\n
+    Работаем 24/7 в экстренных случаях
+</string>
+
+    <string name="contact_phone"><a href="tel:+7 999 993 80 18">📱 +7 (999) 993-80-18</a></string>
+
+    <string name="ai_assistant_title">ИИ-Помощник</string>
+
+    <string name="welcome_message">Привет, Дорогой(-ая) \uD83C\uDF40\n
+        Я Ваш ИИ-Помощник \uD83E\uDD16\n
+        Со мной всё очень легко!\n\n
+        Вы можете задавать свои вопросы или можете выбрать\nследующие ссылки для поиска:\n\n
+        • Как записаться на прием?\n
+        • Где находится поликлиника?\n
+        • Какие документы нужны?\n
+        • Какое время работы?</string>
+
+    <string name="input_hint">Введите вопрос…</string>
+    <string name="send_button">Отправить</string>
+    <string name="response_hello">Привет!\nЧто будем искать? 🔍</string>
+    <string name="response_appointment">Вы можете записаться:\n
+        • Через это приложение\n
+        • По телефону +7 (999) 993-80-18</string>
+    <string name="response_address">Наша поликлиника находится по адресу: ул. Медицинская, 123\n\n
+        - Рядом с парком, 5 минут от метро \'Проспект Вернадского\'</string>
+    <string name="response_documents">Для записи потребуются:\n
+        • Паспорт\n
+        • Полис ОМС\n
+        • СНИЛС\n\n
+        - Для детей • свидетельство о рождении</string>
+    <string name="response_hours">График работы:\n\n
+        • Пн-Пт: 8:00-20:00\n
+        • Сб: 9:00-15:00\n
+        • Вс: выходной\n\n
+        - Терапевт принимает до 19:00</string>
+    <string name="response_unknown">Извините, я не понял вопрос. Попробуйте задать его по-другому или выберите один из вариантов:\n
+        • Записаться / Регистрация\n
+        • Адрес      / Расположение\n
+        • Документы  / Паспорт\n
+        • График     / Часы</string>
+    <string name="response_okay">Надеюсь я был для Вас полезным, до следующего\nраза! 🤗</string>
+
+    <string name="language">Язык</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="chinese">Китайский</string>
+    <string name="apply">Применить</string>
+    <string name="language_changed">Язык изменен!</string>
+
+    <string name="home">Главная</string>
+    <string name="icon_home">Вы уже на главной странице</string>
+    <string name="ai_help">ИИ-Помощь</string>
+    <string name="others">Ещё</string>
+
+    <string name="saveButton">Сохранить</string>
+    <string name="cancelButton">Отмена</string>
+
+    <string name="upcoming_entries">Предстоящие записи:</string>
+    <string name="btn_add_schedule">Расписание</string>
+    <string name="added_new_records">Добавлена новая запись: </string>
+    <string name="my_records">Записи</string>
+
+    <string name="select_doctors">Выбрать врачей</string>
+    <string name="select_time">Выберите дату и время</string>
+
+    <string name="therapist">Терапевт</string>
+    <string name="cardiologist">Кардиолог</string>
+    <string name="ophthalmologist">Офтальмолог</string>
+    <string name="pediatrician">Педиатр</string>
+    <string name="surgeon">Хирург</string>
+    <string name="neurologist">Невролог</string>
+
+    <string name="therapist_profession">Врач общей практики</string>
+    <string name="cardiologist_profession">Специализируется на болезнях сердца и сосудов</string>
+    <string name="ophthalmologist_profession">Врач по зрению и болезням глаз</string>
+    <string name="pediatrician_profession">Детский врач (от рождения до 18 лет)</string>
+    <string name="surgeon_profession">Проводит операции (от аппендицита до сложных вмешательств)</string>
+    <string name="neurologist_profession">Лечит заболевания нервной системы (инсульты, мигрени, эпилепсию)</string>
+
+    <string name="make_appointment">📝 Записаться на приём</string>
+    <string name="appointment_confirmation">Хотите записаться на прием к</string>
+    <string name="appointment_booked">Вы записаны на прием!✅</string>
+    <string name="notification_appointment_booked">Вы записаны на прием!✅</string>
+    <string name="cancel">Отмена ❌</string>
+    <string name="book">Записаться ✅</string>
+
+    <string name="at">в</string>
+    <string name="to">на</string>
+    <string name="status_confirmed">Подтвержен</string>
+
+    <string name="status_open">Открыто</string>
+    <string name="status_book">Забронировать</string>
+    <string name="status_booked">Забронировано</string>
+    <string name="status_closed">Закрыто</string>
+
+    <string name="edit">Изменить ✏️</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_alert">Удалить 🗑</string>
+    <string name="confirm_delete">⚠️ Удалить запись?</string>
+    <string name="confirmed_delete">Запись удалена ✅</string>
+
+    <string name="empty_notifications_text">Мы сообщим Вам когда у нас\nбудут новости для Вас</string>
+    <string name="empty_analysis_text">Результаты анализов в обработке\nВы получите уведомление, когда они будут готовы</string>
+
+    <string name="delete_appointment">Вы уверены, что хотите удалить эту запись?</string>
+
+    <string name="btn_book_appointment">Записаться на приём</string>
+
+    <string-array name="doctor_specializations">
+        <item>Кардиолог</item>
+        <item>Невролог</item>
+        <item>Офтальмолог</item>
+        <item>Педиатр</item>
+        <item>Хирург</item>
+        <item>Терапевт</item>
+    </string-array>
+
+    <string name="unknown_specialization">Неизвестная специализация</string>
+    <string name="user_exists">⚠\uFE0F Пользователь с таким эл. почты уже существует</string>
+    <string name="registration_success">Регистрация успешна ✅</string>
+
+    <string name="del_message">Что Вы хотите удалить?</string>
+    <string name="delete_this_message">Удалить это сообщение</string>
+    <string name="delete_all_messages">Удалить все сообщения</string>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="developer">开发人员: 余思</string>
+    <string name="app_name">医院</string>
+
+    <string name="login_title">登录</string>
+    <string name="email_hint">电子邮件</string>
+    <string name="password_hint">密码</string>
+    <string name="login_button">登录</string>
+    <string name="signup_prompt">新用户？</string>
+    <string name="signup_link">注册</string>
+
+    <string name="signup_title">注册</string>
+    <string name="username_hint">用户名</string>
+    <string name="signup_button">注册</string>
+
+    <string name="doctor_signup_title">注册</string>
+
+    <string name="qr_code_instruction">将二维码靠近终端</string>
+
+    <string name="others_title">其他</string>
+    <string name="profile">个人资料</string>
+    <string name="doctors">医生</string>
+    <string name="patients">患者</string>
+    <string name="analysis">分析</string>
+    <string name="first_aid">急救</string>
+    <string name="notifications">通知</string>
+    <string name="about_us">关于我们</string>
+    <string name="log_out">退出</string>
+    <string name="login_successful">登录成功 ✅</string>
+    <string name="logged_out_successfully">期待很快再见哦! 💜</string>
+
+    <string name="invalid_email_password">无效电子邮件或密码 🤷‍♂️</string>
+    <string name="fill_all_fields">请填写所有字段 🖋</string>
+    <string name="profile_updated">更新个人资料 ✅</string>
+    <string name="profile_updated_error">更改保存错误</string>
+
+    <string name="role_selection_title">您是谁？</string>
+    <string name="doctor_role">医生</string>
+    <string name="patient_role">患者</string>
+
+    <string name="emergency_first_aid_title">紧急急救</string>
+    <string name="emergency_call">紧急呼叫</string>
+    <string name="emergency_number">103 (俄罗斯)</string>
+    <string name="find_nearest_hospital">查找最近的医院</string>
+    <string name="first_aid_instructions_title">急救说明:</string>
+    <string name="first_aid_steps"> 1. 检查危险\n
+        2. 呼救\n
+        3. 打开气道\n
+        4. 检查呼吸\n
+        5. 如需进行心肺复苏\n
+        6. 处理伤口</string>
+    <string name="common_emergencies">常见紧急情况:</string>
+    <string name="heart_attack">心脏病发作</string>
+    <string name="choking">窒息</string>
+    <string name="version_full">版本 1.0.0</string>
+
+    <string name="about_us_content">
+    <b>关于我们</b>\n\n
+    我们是一家现代化的医疗服务平台，结合尖端技术与人文关怀，为您提供优质医疗服务。\n\n
+    ✓ 在线预约医生\n
+    ✓ 电子排队系统\n
+    ✓ 合理价格\n
+    ✓ 顶尖专家团队\n\n
+    <b>联系方式：</b>\n
+    📱 +7 (999) 993-80-18（国际）\n
+    📍 俄罗斯莫斯科， 医疗街123号\n\n
+    紧急情况24/7全天候服务
+</string>
+
+    <string name="contact_phone"><a href="tel:+7 999 993 80 18">📱 +7 (999) 993-80-18</a></string>
+
+    <string name="ai_assistant_title">人工智能助手</string>
+    <string name="welcome_message">亲爱的，您好！\uD83C\uDF40\n
+        我是您的AI助手 \uD83E\uDD16\n
+        和我一起让一切变得简单！\n\n
+        您可以直接提问或选择以下常见问题：\n\n
+        • 如何预约就诊？\n
+        • 诊所地址在哪里？\n
+        • 需要什么文件？\n
+        • 工作时间是？</string>
+    <string name="input_hint">输入问题…</string>
+    <string name="send_button">发送</string>
+    <string name="response_hello">您好!\n我们找什么? 🔍</string>
+    <string name="response_appointment">预约方式：\n
+        • 通过本应用\n
+        • 电话预约 +7 (999) 993-80-18</string>
+    <string name="response_address">诊所地址：医疗街123号\n\n
+        - 公园附近，距离\"维尔纳茨基大道\"地铁站5分钟路程</string>
+    <string name="response_documents">所需文件：\n
+        • 护照\n
+        • 医疗保险\n
+        • SNILS保险号\n\n
+        - 儿童需要 • 出生证明</string>
+    <string name="response_hours">营业时间：\n\n
+        • 周一至周五：8:00-20:00\n
+        • 周六：9:00-15:00\n
+        • 周日休息\n\n
+        - 内科医生接诊至19:00</string>
+    <string name="response_unknown">抱歉，我没有理解这个问题。请换种方式提问或选择以下选项：\n
+        • 登记 / 预约\n
+        • 地址 / 怎么走\n
+        • 文件 / 护照\n
+        • 时间 / 工作时间\n</string>
+    <string name="response_okay">希望我对您有所帮助，下次见！🤗</string>
+
+    <string name="language">语言</string>
+    <string name="select_language">选择语言</string>
+    <string name="english">英语</string>
+    <string name="russian">俄语</string>
+    <string name="chinese">中文</string>
+    <string name="apply">应用</string>
+    <string name="language_changed">语言已更改！</string>
+
+    <string name="home">首页</string>
+    <string name="icon_home">您已经在首页</string>
+    <string name="ai_help">AI-助手</string>
+    <string name="others">其他</string>
+
+    <string name="saveButton">保存</string>
+    <string name="cancelButton">取消</string>
+
+    <string name="upcoming_entries">即将来临的参赛作品:</string>
+    <string name="btn_add_schedule">时间表</string>
+    <string name="added_new_records">新条目添加了: </string>
+    <string name="my_records">记录</string>
+
+    <string name="select_doctors">选择医生</string>
+    <string name="select_time">选择日期 和 时间</string>
+
+    <string name="therapist">内科医生</string>
+    <string name="cardiologist">心脏病专家</string>
+    <string name="ophthalmologist">眼科医生</string>
+    <string name="pediatrician">儿科医生</string>
+    <string name="surgeon">外科医生</string>
+    <string name="neurologist">神经科医生</string>
+
+    <string name="therapist_profession">全科医生</string>
+    <string name="cardiologist_profession">专治心脏和血管疾病</string>
+    <string name="ophthalmologist_profession">治疗视力和眼部疾病</string>
+    <string name="pediatrician_profession">儿童医生（从出生到18岁）</string>
+    <string name="surgeon_profession">进行手术（从阑尾炎到复杂干预）</string>
+    <string name="neurologist_profession">治疗神经系统疾病（中风、偏头痛、癫痫）</string>
+
+    <string name="make_appointment">📝 预约</string>
+    <string name="appointment_confirmation">您想预约 </string>
+    <string name="appointment_booked">预约成功✅</string>
+    <string name="notification_appointment_booked">预约成功✅</string>
+    <string name="cancel">取消 ❌</string>
+    <string name="book">预约 ✅</string>
+
+    <string name="at">在</string>
+    <string name="to">这位</string>
+    <string name="status_confirmed">已确认</string>
+
+    <string name="status_open">开放</string>
+    <string name="status_book">预约</string>
+    <string name="status_booked">已预约</string>
+    <string name="status_closed">关闭</string>
+
+    <string name="edit">改变 ✏️</string>
+    <string name="delete">删除</string>
+    <string name="delete_alert">删除 🗑</string>
+    <string name="confirm_delete">⚠️ 删除条目？</string>
+    <string name="confirmed_delete">条目删除了 ✅</string>
+
+    <string name="empty_notifications_text">当我们有消息时会通知您</string>
+    <string name="empty_analysis_text">结果正在处理中\n准备就绪后会通知您</string>
+
+    <string name="delete_appointment">您真的要这个条目删除吗？</string>
+
+    <string name="btn_book_appointment">预约</string>
+
+    <string-array name="doctor_specializations">
+        <item>心脏病专家</item>
+        <item>神经学家</item>
+        <item>眼科医生</item>
+        <item>儿科医生</item>
+        <item>治疗师</item>
+        <item>外科医生</item>
+    </string-array>
+
+    <string name="unknown_specialization">未知专业化</string>
+    <string name="user_exists">⚠\uFE0F 此电子邮件的用户已存在</string>
+    <string name="registration_success">注册成功 ✅</string>
+
+    <string name="del_message">您要删除什么？</string>
+    <string name="delete_this_message">删除这个短信</string>
+    <string name="delete_all_messages">删除所有短信</string>
+</resources>
