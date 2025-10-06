@@ -93,7 +93,7 @@ implementation 'com.google.android.material:material:1.9.0'
 
 <img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot6.jpg" width="30%" alt="check_doctor"/>
 
-*Главный экран, Профиль и Выбор врача*
+*Главный экран, Профиль, Выбор врача*
 
 </div>
 
@@ -105,7 +105,7 @@ implementation 'com.google.android.material:material:1.9.0'
 
 <img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot9.jpg" width="30%" alt="about_us"/>
 
-*ИИ-Помощь, Языки и О нас*
+*ИИ-Помощь | Языки | О нас*
 
 </div>
 
