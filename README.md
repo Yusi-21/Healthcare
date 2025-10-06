@@ -84,18 +84,37 @@ implementation 'com.google.android.material:material:1.9.0'
 <div align="center">
 
 <img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot1.jpg" width="30%" alt="login"/>
-<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/drawable/screenshot2_black.jpg" width="30%" alt="Все законы_2"/>
 
-*Главный экран и пример закона*
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot2.jpg" width="30%" alt="check"/>
+
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot3.jpg" width="30%" alt="register_patient"/>
+
+
+*Логин, Выбор пользователя, Регистрация пользователя*
 </div>
 
 
 <div align="center">
   
-<img src="https://github.com/Yusi-21/48-Laws-Of-Power/raw/main/app/src/main/res/drawable/screenshot1_white.jpg" width="30%" alt="Закон 1_1"/>
-<img src="https://github.com/Yusi-21/48-Laws-Of-Power/raw/main/app/src/main/res/drawable/screenshot3_white.jpg" width="30%" alt="Все законы_2"/>
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot4.jpg" width="30%" alt="main_page"/>
 
-*Главный экран и пример закона*
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot5.jpg" width="30%" alt="profile"/>
+
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot6.jpg" width="30%" alt="check_doctor"/>
+
+*Главный экран, Профиль и Выбор врача*
+
+</div>
+
+<div align="center">
+  
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot7.jpg" width="30%" alt="ai"/>
+
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot8.jpg" width="30%" alt="language"/>
+
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot9.jpg" width="30%" alt="about_us"/>
+
+*ИИ-Помощь, Языки и О нас*
 
 </div>
 
