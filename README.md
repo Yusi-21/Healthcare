@@ -74,7 +74,38 @@ implementation 'androidx.speech:speech:1.0.0'
 
 // QR-генерация
 implementation 'com.google.zxing:core:3.4.1'
-```
 
 // Material Design
 implementation 'com.google.android.material:material:1.9.0'
+```
+
+## 📸 Скриншоты
+
+<div align="center">
+
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/a/Screenshot1.jpg" width="30%" alt="login"/>
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/drawable/screenshot2_black.jpg" width="30%" alt="Все законы_2"/>
+
+*Главный экран и пример закона*
+</div>
+
+
+<div align="center">
+  
+<img src="https://github.com/Yusi-21/48-Laws-Of-Power/raw/main/app/src/main/res/drawable/screenshot1_white.jpg" width="30%" alt="Закон 1_1"/>
+<img src="https://github.com/Yusi-21/48-Laws-Of-Power/raw/main/app/src/main/res/drawable/screenshot3_white.jpg" width="30%" alt="Все законы_2"/>
+
+*Главный экран и пример закона*
+
+</div>
+
+
+## 🚀 Установка и использование
+
+### ⚙ Установка
+- Клонируйте репозиторий:
+```bash
+git clone https://github.com/Yusi-21/48-Laws-Of-Power.git
+```
+- Откройте проект в Android Studio
+- Соберите и запустите приложение
