@@ -83,7 +83,7 @@ implementation 'com.google.android.material:material:1.9.0'
 
 <div align="center">
 
-<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/a/Screenshot1.jpg" width="30%" alt="login"/>
+<img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/screenshots/Screenshot1.jpg" width="30%" alt="login"/>
 <img src="https://github.com/Yusi-21/Healthcare/raw/main/app/src/main/res/drawable/screenshot2_black.jpg" width="30%" alt="Все законы_2"/>
 
 *Главный экран и пример закона*
@@ -105,7 +105,7 @@ implementation 'com.google.android.material:material:1.9.0'
 ### ⚙ Установка
 - Клонируйте репозиторий:
 ```bash
-git clone https://github.com/Yusi-21/48-Laws-Of-Power.git
+git clone https://github.com/Yusi-21/Healthcare.git
 ```
 - Откройте проект в Android Studio
 - Соберите и запустите приложение
